@@ -1,8 +1,70 @@
 
 body{
-    background-color: aqua;
+    background-color: blanchedalmond;
+    border: solid black;
 }
-nav{
-    display: inline-block;
-    padding: 20px;
+header{
+    display: flex;
 }
+nav ul li{
+    display: flex;
+    justify-content: center;
+    display: inline;
+}
+#first {
+ width: 300px;
+}
+#sectop {
+    display: flex;
+    justify-content: center;
+    border-top: solid black;
+    border-bottom: solid black;
+}
+#Java {
+    display: flex;
+    border-bottom: solid black;
+}
+#Pro {
+    display: flex;
+    justify-content: space-around;
+}
+#menu{
+    display: flex;
+    border-spacing: 0px;
+    border: solid black 1px;
+    height: 200px;
+    width: 200px;
+  }
+  #js{
+    border: solid black 1px;
+  }
+  #numb{
+    border: solid black 1px;
+    padding:5px;
+    height: 92px;
+      width: 100px;
+  }
+  #main {
+      display: flex;
+      justify-content: center;
+      justify-content: space-around;
+  }
+  #js{
+      text-align: center;
+      height: 92px;
+      width: 100px;
+  }
+#div1 {
+    display: flex;
+    justify-content: center;
+}
+#div2 {
+    display: flex;
+    justify-content: space-around;
+    border-top: black solid;
+    border-bottom: solid black;
+}
+a {
+ margin-left: 200px;
+}
+
